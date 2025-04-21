@@ -5,69 +5,95 @@
     <meta charset="UTF-8">
     <title>GlowUp Wellness Spa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
-<header class="hero text-center">
-    <h1>Relax. Rejuvenate. Radiate.</h1>
-    <p>Your glow starts here — discover a new level of self-care at GlowUp Wellness.</p>
-    <a class="btn btn-primary mt-3" href="#services">See Our Services</a>
+<header class="hero text-center text-white">
+    <div class="overlay">
+        <div class="hero-content">
+            <h1>Relax. Rejuvenate. Radiate.</h1>
+            <p>Your glow starts here — discover a new level of self-care at GlowUp Wellness.</p>
+            <a class="btn btn-light mt-3" href="#services">See Our Services</a>
+        </div>
+    </div>
 </header>
 
 <section id="about" class="section text-center">
-    <h2>About Us</h2>
-    <p>At GlowUp Wellness Spa, we believe self-care is essential — not a luxury.
-    Our expert team offers holistic treatments that restore your body, mind, and glow.
-    From deep tissue massages to personalized facials, we're here to help you feel your absolute best in a calming and luxurious environment.</p>
+    <div class="container">
+        <h2>About Us</h2>
+        <p>At GlowUp Wellness Spa, we believe self-care is essential — not a luxury.
+        Our expert team offers holistic treatments that restore your body, mind, and glow.
+        From deep tissue massages to personalized facials, we're here to help you feel your absolute best in a calming and luxurious environment.</p>
+    </div>
 </section>
 
-<section id="services" class="section">
+<section id="services" class="section bg-light">
     <div class="container">
-        <h2 class="text-center mb-4">Our Services</h2>
+        <h2 class="text-center mb-5">Our Services</h2>
         <div class="row g-4">
             <div class="col-md-4">
-                <div class="card service-card p-3 text-center">
-                    <i class="fas fa-spa fa-2x mb-2"></i>
-                    <h5>Signature Glow Facial</h5>
-                    <p>Customized skin treatment to detox, hydrate, and restore your skin’s natural glow.</p>
+                <div class="card service-card text-center">
+                    <img src="https://source.unsplash.com/300x200/?facial,spa" alt="facial" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Signature Glow Facial</h5>
+                        <p>Customized skin treatment to detox, hydrate, and restore your skin’s natural glow.</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card service-card p-3 text-center">
-                    <i class="fas fa-hand-holding-water fa-2x mb-2"></i>
-                    <h5>Swedish Massage</h5>
-                    <p>A classic full-body massage to improve circulation and reduce stress.</p>
+                <div class="card service-card text-center">
+                    <img src="https://source.unsplash.com/300x200/?massage,spa" alt="massage" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Swedish Massage</h5>
+                        <p>A classic full-body massage to improve circulation and reduce stress.</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card service-card p-3 text-center">
-                    <i class="fas fa-hot-tub fa-2x mb-2"></i>
-                    <h5>Hot Stone Therapy</h5>
-                    <p>Melt away tension and stress with smooth, heated stones and expert technique.</p>
+                <div class="card service-card text-center">
+                    <img src="https://source.unsplash.com/300x200/?stones,spa" alt="hot stone therapy" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Hot Stone Therapy</h5>
+                        <p>Melt away tension and stress with smooth, heated stones and expert technique.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section id="testimonials" class="section bg-light text-center">
-    <h2>What Clients Say</h2>
-    <blockquote>"Absolutely amazing experience. I walked out feeling like a brand new person!" — Emily R.</blockquote>
-    <blockquote>"The ambiance, the service, the glow — everything was perfect!" — Janelle M.</blockquote>
-    <blockquote>"Five stars for the GlowUp Body Scrub. My skin has never felt softer." — Monica P.</blockquote>
+<section id="testimonials" class="section text-center">
+    <div class="container">
+        <h2>Client Testimonials</h2>
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-3">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" class="testimonial-img mb-2" alt="client1">
+                <p>"Absolutely amazing experience. I walked out feeling like a brand new person!"<br><strong>– Emily R.</strong></p>
+            </div>
+            <div class="col-md-3">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" class="testimonial-img mb-2" alt="client2">
+                <p>"The ambiance, the service, the glow — everything was perfect!"<br><strong>– Janelle M.</strong></p>
+            </div>
+            <div class="col-md-3">
+                <img src="https://randomuser.me/api/portraits/women/22.jpg" class="testimonial-img mb-2" alt="client3">
+                <p>"Five stars for the GlowUp Body Scrub. My skin has never felt softer."<br><strong>– Monica P.</strong></p>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section id="contact" class="section">
+<section id="contact" class="section bg-light">
     <div class="container">
         <h2 class="text-center mb-4">Contact Us</h2>
         <p class="text-center"><strong>Location:</strong> 123 Harmony Lane, Dallas, TX</p>
         <p class="text-center"><strong>Phone:</strong> (214) 555-9988</p>
         <p class="text-center"><strong>Email:</strong> contact@glowupspa.fake</p>
 
-        <form class="mx-auto" style="max-width: 600px;">
+        <form class="mx-auto mt-4" style="max-width: 600px;">
             <div class="mb-3">
                 <input class="form-control" type="text" placeholder="Your Name" required>
             </div>
